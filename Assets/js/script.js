@@ -5,5 +5,5 @@ fetch(requestUrl)
   })
   .then(function (data) {
     console.log('Fetch Response \n-------------');
-    console.log(data.categories[0]);
+    console.log(data);
   });
