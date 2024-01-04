@@ -18,5 +18,5 @@ fetch(requestUrl)
   });
 
 
-  document.querySelector(".city").innerHTML = location.name;
+
 
