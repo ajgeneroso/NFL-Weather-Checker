@@ -1,18 +1,15 @@
 h1 { 
-    color:aqua; 
+    color: black; 
+    background-color: white;
+    text-align: center;
 }
 
 h2 {
     color:#BF8969;
+    background-color: black;
+    text-align: center;
 }
 
-p {
-    color: white;
-}
-
-h1 { 
-    color: white; 
-}
 
 body {
     background: 222;
