@@ -1,5 +1,4 @@
 var requestUrl = 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams';
-var apiUrl = 'https://api.tomorrow.io/v4/weather, /realtime?location=toronto&apikey=InSyQJBRzUZVQlYpMWDOxMQ5NlBmNRTT';
 var nflTeams = ["Arizona", "Atlanta", "Baltimore", "Buffalo", "Carolina", "Chicago", "Cincinnati", "Cleveland", "Dallas", "Denver", "Detroit", "Green Bay", "Houston", "Indianapolis", "Jacksonville", "Kansas City", "Las Vegas", "LAC", "LAR", "Miami", "Minnesota", "New England", "New Orleans", "NYG", "NYJ", "Philadelphia", "Pittsburgh", "San Francisco", "Seattle", "Tampa Bay", "Tennessee", "Washington"];
 
 var teamDiv = document.getElementById('teams');
@@ -31,7 +30,32 @@ fetch(requestUrl)
     
 })
 
+
+
   };
+
+   
+
+
+
+   var temperature = document.querySelector('.temp');
+   var city = document.querySelector('.city');
+
+   teamDiv.addEventListener('click', function(e){
+    var apiUrl = `https://api.tomorrow.io/v4/weather/realtime?location=${e.target.dataset.city}&units=imperial&apikey=InSyQJBRzUZVQlYpMWDOxMQ5NlBmNRTT`;
+
+    fetch(apiUrl)
+     .then(function (response) {
+       return response.json();
+     })
+     .then(function (data) {
+       console.log('Weather \n-------------');
+       console.log(data);
+       temperature.textContent = data.data.values.temperature; 
+       city.textContent = data.location.name;
+       console.log(data.location.name);
+     });  
+   });
 
 
 
