@@ -17,13 +17,15 @@ fetch(requestUrl)
 
     for( var i = 0; i < data.sports[0].leagues[0].teams.length; i++){
     //CREATE
-    var newTeam = document.createElement('button');
+    var newTeam = document.createElement('input');
         
 
     //INJECT
+    newTeam.type = 'image';
+    newTeam.src = data.sports[0].leagues[0].teams[i].team.logos[0].href;
     newTeam.textContent = data.sports[0].leagues[0].teams[i].team.displayName;
     newTeam.dataset.city = data.sports[0].leagues[0].teams[i].team.location;
-
+    newTeam.style = "width:100px;"
     //APPEND
     teamDiv.appendChild(newTeam);
     }
