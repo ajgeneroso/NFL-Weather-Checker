@@ -22,6 +22,8 @@ THEN I will see the weathe for the selected stadium
 Html
 CSS
 JavaScript
+Ink
+API:ESPN, Tommorow.io
 
 ## Usage
 If you click them NFL team button it will open a bunch of logos of NFL team when you click on one it will show the weather at that stadium.
