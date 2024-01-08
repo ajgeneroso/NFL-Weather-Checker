@@ -30,6 +30,7 @@ If you click them NFL team button it will open a bunch of logos of NFL team when
 ![Alt text](<Assets/images/Screen Shot 2024-01-07 at 11.37.37 PM.png>)
 ![Alt text](<Assets/images/Screen Shot 2024-01-07 at 11.26.01 PM.png>)
 ![Alt text](<Assets/images/Screen Shot 2024-01-07 at 11.25.41 PM.png>)
+
 ## Credits
 https://github.com/ajgeneroso
 https://github.com/paigepreziosi
