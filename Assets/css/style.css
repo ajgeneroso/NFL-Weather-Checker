@@ -7,7 +7,7 @@ p {
 h1 { 
     color:#BF8969; 
     text-shadow: 5px 5px 15px #000000;
-    text-align: center;
+
     
 }
 
@@ -21,15 +21,6 @@ text-align: center;
 
 body {
     background: 222;
-}
-
-button {
-    color: rgb(255, 255, 255); font-size: 20px; line-height: 20px; padding: 10px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(191, 137, 105) 0%, rgb(139, 100, 77) 50%, rgb(101, 73, 56) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(255, 255, 255); display: inline-block;}
-.myButton:hover {
-background: #BF8969; }
-.myButton:active {
-background: #654938;
-
 }
 
 .card {
@@ -103,6 +94,5 @@ background: #654938;
     padding: 0 20px;
     margin-top: 50px;
 }
-
 
 
