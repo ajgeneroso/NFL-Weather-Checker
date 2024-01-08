@@ -3,6 +3,7 @@ var teamDiv = document.getElementById('teams');// Get a reference to the HTML el
 
 document.getElementById("myBtn").addEventListener("click", displayTeams);// Add a click event listener to the HTML element with the id 'myBtn'
 function displayTeams() {  // Define the function to be executed when 'myBtn' is clicked
+  teamDiv.textContent = '';
   fetch(requestUrl) // Fetch data from the specified API endpoint
     .then(function (response) {  // Parse the response as JSON
       return response.json();
