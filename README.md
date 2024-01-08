@@ -1,4 +1,4 @@
-# Project1
+# NFL-Weather-Checker
 
 ## Description
 A website that allows people to see the weather at their favorite team or whatever team they want temperature at the stadium. They select what team they want and it will display the weather.
