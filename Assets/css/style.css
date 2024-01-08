@@ -1,16 +1,16 @@
-
+/* Styling for paragraph elements */
 p {
     color: white;
     text-shadow: 2px 2px 8px #000000;
 }
-
+/* Styling for h1 (heading level 1) elements */
 h1 { 
     color:#BF8969; 
     text-shadow: 5px 5px 15px #000000;
 
     
 }
-
+/* Styling for h2 (heading level 2) elements */
 h2 {
 color:#BF8969;
 text-shadow: 3px 3px 9px #000000;
@@ -18,7 +18,7 @@ text-align: center;
 
 }
 
-
+/* Styling for the body element */
 body {
     background: 222;
 }
@@ -31,7 +31,7 @@ background: #BF8969; }
 background: #654938;
 
 }
-
+/* Styling for elements with the class 'card' */
 .card {
     width: 80%;
     max-width: 450px;
@@ -42,14 +42,14 @@ background: #654938;
     padding: 40px 30px;
     text-align: center;
 }
-
+/* Styling for elements with the class 'search' */
 .search { 
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+/* Styling for input elements within elements with the class 'search' */
 .search input { 
     border: 0;
     outline: 0;
@@ -63,7 +63,7 @@ background: #654938;
     margin-right: 15px;
     font-size: 18px;
 }
-
+/* Styling for button elements within elements with the class 'search' */
 .search button { 
     border: 0;
     outline: 0;
@@ -73,29 +73,29 @@ background: #654938;
     height: 50px;
     cursor: pointer;
 }
-
+/* Styling for images within button elements within elements with the class 'search' */
 .search button img{
     width: 30px;
 }
-
+/* Styling for elements with the class 'weather-icon' */
 .weather-icon {
     width: 150px;
     margin-top: 20px;
 }
-
+/* Styling for h3 elements within elements with the class 'weather' */
 .weather h3 {
     font-size: 30px;
     font-weight: 500;
     color: white
 }
-
+/* Styling for h4 elements within elements with the class 'weather' */
 .weather h4 {
     font-size: 40px;
     font-weight: 500;
     color: white;
     margin: -10px;
 }
-
+/* Styling for elements with the class 'details' */
 .details {
     display: flex;
     align-items: center;
