@@ -10,6 +10,8 @@ function displayTeams() {  // Define the function to be executed when 'myBtn' is
     })
     .then(function (data) {  // Process the JSON data
       for (var i = 0; i < data.sports[0].leagues[0].teams.length; i++) {  // Iterate over the teams in the data and create input elements for each
+        console.log('NFL Teams \n-------------');
+    console.log(data.sports[0].leagues[0].teams);
         var newTeam = document.createElement('input'); // Create a new input element
 
         newTeam.type = 'image';// Set the type of the input element to 'image'
